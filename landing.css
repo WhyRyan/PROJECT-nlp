@@ -1,3 +1,16 @@
 body{box-sizing: content-box;
     background-color: black;
 }
+.btn-group{
+    margin-top: 1%;
+    
+}
+.mainBody{
+    margin-top:10px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.form-label{
+text-decoration: chartreuse;
+}

@@ -19,33 +19,40 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">TUTORIALS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">OUTPUT</a>
+                <a class="nav-link active" aria-current="page" href="#">OUTPUT</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>  
-      <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-        <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-        <label class="btn btn-outline-success" for="btncheck1">MCQ</label>
+      <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+        <label class="btn btn-outline-success" for="btnradio1">MCQ</label>
       
-        <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
-        <label class="btn btn-outline-success" for="btncheck2">FILL IN THE BLANKS</label>
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+        <label class="btn btn-outline-success" for="btnradio2">FILL IN THE BLANKS</label>
       
-        <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-        <label class="btn btn-outline-success" for="btncheck3">FILL IN THE BLANKS</label>
-        
-        <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-        <label class="btn btn-outline-success" for="btncheck3">LONG QUESTIONS</label>
-      </div> 
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+        <label class="btn btn-outline-success" for="btnradio3">TRUE AND FALSE</label>
+      </div>
       <div class="mainBody">
         <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label ">Enter the context Below</label>
+          <label for="exampleFormControlTextarea1" id="i1" class="form-label ">Enter the context Below</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+          <div class="mb-3">
+            <label for="formFile" class="form-label" id="i1" >Or put a text file</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <button type="button" id="mp" class="btn btn-outline-success">GENERATE</button>
+          <button type="button" id="mp" class="btn btn-outline-success">RESET</button>
         </div>
+      </div>
+      <div class="instruction bg-success">
+        <ul class="list-group">
+          <li class="list-group-item">Enter the given context in the given area or enter a word file in the above given area</li>
+          <li class="list-group-item">The desired ouput will be shown after you click generate</li>
+          <li class="list-group-item">The question will generated in any of the ways </li>
+        </ul>
       </div>
 </body>
 </html>

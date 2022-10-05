@@ -1,16 +1,27 @@
 body{box-sizing: content-box;
     background-color: black;
 }
-.btn-group{
-    margin-top: 1%;
-    
-}
 .mainBody{
     margin-top:10px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .form-label{
 text-decoration: chartreuse;
+}
+#i1{
+    color: white;
+}
+#mp{
+    margin-top: 15px;
+}
+.btn-group{
+    margin-left: 3%;
+    margin-top: 15px;
+}
+.instruction{
+    margin-top: 70px;
+    margin-left:  4%;
+    margin-right: 4%;
 }

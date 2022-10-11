@@ -13,7 +13,7 @@ text-decoration: chartreuse;
 #i1{
     color: white;
 }
-#mp{
+#mp,#rs{
     margin-top: 15px;
 }
 .btn-group{
@@ -24,4 +24,7 @@ text-decoration: chartreuse;
     margin-top: 70px;
     margin-left:  4%;
     margin-right: 4%;
+}
+#mt{
+    height: 5rem;
 }
